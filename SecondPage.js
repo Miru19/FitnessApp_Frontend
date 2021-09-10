@@ -45,9 +45,8 @@ export class SecondPage extends Component {
                     <Text style={styles.chooseText}>Choose your sport:</Text>
                 </View>
                 <View style={{ marginBottom: '30%' }}>
-                    <FlatButton text='Running' onPress={() => navigation.navigate("Running")} />
+                    
                     <FlatButton text='Gym' onPress={() => navigation.navigate("Gym")} />
-                    <FlatButton text='Kickbox' onPress={() => navigation.navigate("KickBox", { name: route.params.name })} />
                 </View>
 
             </ImageBackground>
